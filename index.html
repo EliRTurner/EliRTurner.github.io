@@ -1,15 +1,25 @@
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <canvas id="myCanvas" width="500" height="500" style="border:1px solid #c3c3c3;"> </canvas>
     
-    <span>  </span> <p id="points"> 0 </p> 
-    <button type="button" id="increaseSpeedButton" onclick="increaseSpeed()"> Increase Speed </button>
-    <button type="button" id="increaseCoinWorthButton" onclick="increaseCoinWorth()" style="display:none;"> Increase Coin Worth 10 </button>
+    <img id="grassSprite" src="grass.png" style="display: none;">
+    <img id="treeSprite" src="tree.png" style="display: none;">
+    <img id="pathSprite" src="path.png" style="display: none;">
+    <img id="playerSprite" src="player.png" style="display: none;">
+    <img id="wall" src="wall.png" style="display: none;">
+    <img id="wallHorizontal" src="wallHorizontal.png" style="display: none;">
+    <img id="wallTopLeft" src="wallTopLeft.png" style="display: none;">
+    <img id="wallTopRight" src="wallTopRight.png" style="display: none;">
+    <img id="wallVertical" src="wallVertical.png" style="display: none;">
+    <img id="wallBottomLeft" src="wallBottomLeft.png" style="display: none;">
+    <img id="wallBottomRight" src="wallBottomRight.png" style="display: none;">
 
-<script src = script.js></script>
+    
+    <canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #c3c3c3;"> </canvas>
+    
+<script src = script.js defer></script>
 
 </body>
 </html>
